@@ -9,8 +9,8 @@
 <body>
 	<header>
 		<div class="container">
-			<%= link_to "sample app", '#', id: "logo" %>
 		    <nav>
+		    <a class="brand-logo"><%= link_to "sample app", '#', id: "logo" %></a>
 		      <ul class="nav navbar-nav navbar-right">
 		        <li><%= link_to "Home",   '#' %></li>
 		        <li><%= link_to "Help",   '#' %></li>
@@ -19,7 +19,6 @@
 		    </nav>
 		</div>	
 	</header>
-	
 
 	<div class="container">
 	<%= yield %>
