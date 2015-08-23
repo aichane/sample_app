@@ -103,12 +103,18 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+   background:#999;
     a {
   color: #555;
     &:hover{
       color: #222;
     }
   }
+
 
   small {
     float: left;
